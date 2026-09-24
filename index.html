@@ -239,7 +239,7 @@
     <div class="reveal">
       <span class="badge"><span class="dot"></span>Flutter 跨平台 · 持续更新中</span>
       <h1>把整座曲库<br />装进<span class="grad"> 口袋</span></h1>
-      <p class="sub">云韵音乐是一款用 Flutter 打造的跨平台音乐播放器。打开就能听，无需注册；后台播放、锁屏控制、逐行歌词、无损音质与均衡器一应俱全。</p>
+      <p class="sub">云韵音乐是个人私有音乐库播放器：服务端扫描你自己的曲库并自动转码，App 端打开就能听，无需注册。支持 MP3 / FLAC / WAV / M4A / AAC / OGG，后台播放、锁屏控制、逐行歌词、无损音质与均衡器一应俱全。</p>
       <div class="cta">
         <a class="btn btn-primary" href="https://github.com/lcssdwl/yin/releases/latest">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M4 20h16"/></svg>
@@ -255,7 +255,8 @@
         <span class="chip">iOS</span>
         <span class="chip">Windows</span>
         <span class="chip">免登录可听</span>
-        <span class="chip">FLAC 无损</span>
+        <span class="chip">私有曲库</span>
+        <span class="chip">MP3 / FLAC / WAV</span>
       </div>
     </div>
 
@@ -319,7 +320,7 @@
         <div class="card reveal">
           <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.8 8.4 8 9 4.2-.6 8-4 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></div>
           <h3>三档音质</h3>
-          <p>标准 128k / 高品 320k / 无损 FLAC 自由切换，音频地址带时效签名防盗链。</p>
+          <p>服务端扫描曲库后自动转出标准 128k / 高品 320k / 无损 FLAC，App 端自由切换，音频地址带时效签名防盗链。</p>
         </div>
         <div class="card reveal">
           <div class="ic"><svg viewBox="0 0 24 24"><path d="M4 7h10l3 3v11H4V7Z"/><path d="M8 7V4h9l3 3v11h-3"/></svg></div>
@@ -427,6 +428,7 @@
         <span><b>Hive</b> 本地存储</span>
         <span><b>cryptography_flutter</b> 缓存加密</span>
         <span><b>cached_network_image</b> 封面缓存</span>
+        <span><b>ffmpeg</b> 服务端自动转码</span>
         <span><b>Go</b> 后端服务</span>
       </div>
     </div>
